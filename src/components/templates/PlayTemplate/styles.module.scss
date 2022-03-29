@@ -1,0 +1,21 @@
+.playTemplate {
+  width: 100%;
+  max-width: 550px;
+  height: 375px;
+  margin: auto;
+}
+
+.formQuiz {
+  width: 100%;
+  max-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  button {
+    margin-top: 0.625rem;
+  }
+}

@@ -1,0 +1,17 @@
+.hitOrMiss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionAnswer {
+  display: inline-block;
+  font-size: 1.125rem;
+  margin-right: 0.25rem;
+
+  > strong {
+    color: var(--gray-300);
+    font-weight: 700;
+    margin-right: 0.5rem;
+  }
+}

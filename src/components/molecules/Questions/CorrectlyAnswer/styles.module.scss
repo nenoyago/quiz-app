@@ -1,0 +1,15 @@
+.correctlyAnswers {
+  span {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  .hits {
+    font-size: 1.25rem;
+    font-size: 600;
+    color: (--gray-50);
+
+    &--good {
+      color: var(--teal-300);
+    }
+  }
+}

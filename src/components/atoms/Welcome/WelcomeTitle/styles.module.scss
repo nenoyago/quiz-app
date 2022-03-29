@@ -1,0 +1,10 @@
+.title {
+  font-size: 2.375rem;
+  line-height: 3.125rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+
+  > span {
+    color: var(--teal-300);
+  }
+}

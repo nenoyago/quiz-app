@@ -1,0 +1,31 @@
+.button {
+  border: 0;
+  outline: none;
+  margin: 0.625rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--gray-800);
+  padding: 0.625rem;
+  min-height: 4.5rem;
+  width: 100%;
+  max-width: 400px;
+
+  background-color: var(--teal-300);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  transition: all 0.32s ease-in-out;
+
+  &:not(:disabled):hover {
+    border-color: var(--teal-600);
+    background-color: var(--teal-200);
+  }
+
+  &:disabled {
+    background-color: var(--gray-500);
+  }
+}

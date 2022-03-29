@@ -1,0 +1,13 @@
+.resultQuestion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2.375rem 0;
+
+  .resultQuestionDescription {
+    font-size: 1.25rem;
+    margin-bottom: 0.625rem;
+
+    color: var(--gray-200);
+  }
+}
